@@ -1,6 +1,8 @@
 #Jetbrains folder ignore
 \.idea/
 
-AutoHideTagPlugin/System.Linq.Dll
 AutoHideTagPlugin/obj
 AutoHideTagPLugin/bin
+Build/
+
+*.dll
