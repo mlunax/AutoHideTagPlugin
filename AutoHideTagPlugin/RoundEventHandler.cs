@@ -17,7 +17,7 @@ namespace AutoHideTagPlugin
         {
             var l = this.plugin.GetConfigList("autohidetag_roles");
             var l2 = l.Select(t => t.Trim()).ToList();
-            if (l2.Contains(ev.Player.GetRankName().ToLower()))
+            if (l2.Contains(ev.Player.GetRankName().ToLower()) || l2.Contains(ev.Player.GetUserGroup().Name.ToLower()))
                 ev.Player.HideTag(true);
         }
     }
