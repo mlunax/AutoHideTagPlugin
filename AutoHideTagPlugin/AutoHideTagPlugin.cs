@@ -10,10 +10,10 @@ namespace AutoHideTagPlugin
         name = "AutoHideTag",
         description = "Automatically Hiding Tag for your Role",
         id = "lunax.autohidetag",
-        version = "0.1",
+        version = "1.0",
         SmodMajor = 3,
         SmodMinor = 1,
-        SmodRevision = 12
+        SmodRevision = 13
     )]
     
     class AutoHideTagPlugin : Plugin

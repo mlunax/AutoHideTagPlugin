@@ -15,7 +15,9 @@ namespace AutoHideTagPlugin
 
         public void OnPlayerJoin(PlayerJoinEvent ev)
         {
-            if (this.plugin.GetConfigList("autohidetag_roles").Contains(ev.Player.GetRankName().ToLower()))
+            var l = this.plugin.GetConfigList("autohidetag_roles");
+            var l2 = l.Select(t => t.Trim()).ToList();
+            if (l2.Contains(ev.Player.GetRankName().ToLower()))
                 ev.Player.HideTag(true);
         }
     }
