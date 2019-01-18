@@ -1,5 +1,7 @@
 # AutoHideTagPlugin
 
+# I won't make updates. Project is not supported by me anymore.
+
 ## Description
 
 AutoHideTagPlugin hides set in config groups' tags when a player connects.  
